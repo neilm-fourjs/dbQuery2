@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Project defaultApplication="18736" gstVersion="31405" version="3.3">
+<Project defaultApplication="18736" gstVersion="31407" version="3.3">
   <Settings>
     <DynamicProperties version="2">
       <DynamicProperty description="Accent color (Android 5.0 and later)" initialValue="#9575CD" isDefaultInherited="false" isHidden="false" label="Accent color" name="gma-accent-color" readOnly="false" type="COLOR"/>
@@ -64,11 +64,14 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group id="75644415" label="dbQuery2" language="Genero">
-    <Application binaryName="dbQuery2" commandLineArguments="njm_demo_db stock" dependencies="14000,1986,836966400_14000" id="18736" label="dbQuery2">
+  <Group environment="value:FJS_GL_DBGLEV=3" id="75644415" label="dbQuery2" language="Genero">
+    <Application binaryName="dbQuery2" dependencies="14000,1986,836966400_14000,1877519075" id="18736" label="dbQuery2">
       <File filePath="src/dbQuery2.4gl"/>
     </Application>
     <Library binaryName="dbQuery2Lib" dependencies="1986" id="14000" label="dbQuery2Lib"/>
+    <Library binaryName="etc" id="1877519075" label="etc">
+      <File filePath="etc/default.4st"/>
+    </Library>
     <ExtProject filePath="../g2_lib/g2_lib.4pw" id="836966400"/>
   </Group>
 </Project>
