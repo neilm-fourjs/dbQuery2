@@ -64,11 +64,13 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group environment="value:FJS_GL_DBGLEV=3" id="75644415" label="dbQuery2" language="Genero">
+  <Group environment="value:FJS_GL_DBGLEV=3" id="75644415" label="dbQuery2" language="Genero" targetDirectory="$(ProjectDir)/../njm_app_bin">
     <Application binaryName="dbQuery2" dependencies="14000,1986,836966400_14000,1877519075" id="18736" label="dbQuery2">
       <File filePath="src/dbQuery2.4gl"/>
     </Application>
-    <Library binaryName="dbQuery2Lib" dependencies="1986" id="14000" label="dbQuery2Lib"/>
+    <Library binaryName="dbQuery2Lib" dependencies="1986" id="14000" label="dbQuery2Lib">
+      <File filePath="src/Schema.4gl"/>
+    </Library>
     <Library binaryName="etc" id="1877519075" label="etc">
       <File filePath="etc/default.4st"/>
     </Library>
